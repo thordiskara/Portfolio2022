@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-body">
+    <header class="fixed w-screen">
+      <div class="flex justify-between mx-8 mt-6 gap-10">
+        <a href="index.html">TKV</a>
+        <div class="flex gap-3">
+          <img class="w-[0.6rem] h-[1.5rem]" src="svg/green-dot.svg" alt="green-dot">
+          <p class="uppercase">Currently looking for an internship</p>
+        </div>
+        <nav class="flex">
+          <ul class="uppercase">
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#capabilities">capabilities</a></li>
+            <li><a href="index.html#works">Works</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section class="h-screen sticky top-0 z-[-10]">
+        <h1 class=" px-8 lg:px-12 text-6xl pt-[20rem] sm:text-7xl md:text-8xl lg:text-[9rem] lg:pt-[16rem] lg:pb-[4.1rem] lg:pr-[30rem] lg:leading-[9rem]">DIGITAL DESIGN
+          STUDENT</h1>
+        </section>
+          <!-- <h1 class="title text-6xl sm:text-7xl md:text-8xl lg:text-9xl">& VISUAL 
+            PROBLEM SOLVER</h1> -->
+
+            <!-- CAROSEL -->
+      <section class="carousel relative overflow-hidden bg-body">
+        <div class="carousel__slider relative flex items-center w-[100vw] border-y-2 border-black h-[3.4rem]">
+          <ul class="carousel__list m-0 p-0 list-none absolute w-[150%] top-[50%] left-0 translate-y-[-50%] flex items-center justify-around">
+            <li class="carousel__item flex items-center justify-center text-accent text-[2.5rem]">
+              <span>WEB DESIGN</span>
+            </li>
+            <li class="carousel__item flex items-center justify-center text-accent text-[2.5rem]">
+              <span>&#183;</span>
+            </li>
+            <li class="carousel__item flex items-center justify-center text-accent text-[2.5rem]">
+              <span>CONTENT DESIGN</span>
+            </li>
+            <li class="carousel__item flex items-center justify-center text-accent text-[2.5rem]">
+              <span>&#183;</span>
+            </li>
+            <li class="carousel__item flex items-center justify-center text-accent text-[2.5rem]">
+              <span>VISUAL STORYTELLING</span>
+            </li>
+            <li class="carousel__item flex items-center justify-center text-accent text-[2.5rem]">
+              <span>&#183;</span>
+            </li>
+            <li class="carousel__item flex items-center justify-center text-accent text-[2.5rem]">
+              <span>E-COMMERCE DESIGN</span>
+            </li>
+            <li class="carousel__item flex items-center justify-center text-accent text-[2.5rem]">
+              <span>&#183;</span>
+            </li>
+            <li class="carousel__item flex items-center justify-center text-accent text-[2.5rem]">
+              <span>PROTOTYPING</span>
+            </li>
+            <li class="carousel__item flex items-center justify-center text-accent text-[2.5rem]">
+              <span>&#183;</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      
+
+      <!-- ABOUT -->
+      <section id="about" class="about h-screen px-8 bg-dark lg:grid lg:grid-cols-about lg:px-0 lg:pl-12">
+        <div>
+          <h2 class="reveal uppercase text-white pt-20">about</h2>
+          <div id="aboutme" class="reveal flex flex-col gap-12 pt-16">
+            <p class="text-white text-2xl leading-8 lg:px-20">Hi, my name is Thordis Kara and I'm a 25 year old Icelander based in copenhagen. I'm currently on my 3rd semester as a Multimedia Design student with emphasis on Digital Design at Copenhagen School of Design and Technology.</p>
+            <p class="text-white text-2xl leading-8 lg:px-20">I'm interested in everything that has to do with visual design, mobile and web projects as well as branding and visual storytelling.
+            </p>
+          </div>
+        </div>
+        <div class="lg:flex justify-end hidden">
+          <img class="h-screen w-auto object-cover " src="img/disa.JPG" alt="me">
+        </div>
+      </section>
+
+      <!-- CAPABILITIES -->
+      <section id="capabilities" class="bg-body px-8">
+        <h2 class="reveal uppercase pt-20">capabilities</h2>
+        <div class="reveal grid grid-cols-capmobile md:grid-cols-capdesktop lg:mx-20 pt-20">
+          
+          <div></div>
+          <div class="border-x-2 border-black h-[3rem]"></div>
+          <div class="hidden md:block border-r-2 border-black h-[3rem]"></div>
+          <div></div>
+
+          <div class="border-y-2 border-black"></div>
+          <div class="border-x-2 border-black border-y-2 px-10 py-8">
+            <img class="m-auto" src="svg/uxdesign.svg" alt="ux">
+            <p class="uppercase flex justify-center font-bold">UX design</p>
+            <p>I draw from user and market research to design prototypes, create user flows, structure information architecture and develop an overall style guide for websites.</p>
+          </div>
+          <div class="md:hidden border-y-2 border-black"></div>
+
+          <div class="md:hidden border-b-2 border-black"></div>
+          <div class="border-x-2 border-black border-b-2 md:border-r-2 md:border-l-0 md:border-t-2 px-10 py-8">
+            <img class="m-auto" src="svg/code.svg" alt="code">
+            <p class="uppercase flex justify-center font-bold">Coding</p>
+            <p>I'm able to build websites using HTML, CSS and JavaScript as well as other frontend frameworks like Tailwind CSS and Motion One.</p>
+          </div>
+          <div class="border-b-2 border-black md:border-t-2"></div>
+
+          <div class="border-b-2 border-black"></div>
+          <div class="border-x-2 border-black border-b-2 px-10 py-8">
+            <img class="m-auto" src="svg/test.svg" alt="test">
+            <p class="uppercase flex justify-center font-bold">testing</p>
+            <p>By testing my prototypes I gain great knowledge about user behavior, wants and needs to deliver solutions that are effective.</p>
+          </div>
+          <div class="border-b-2 border-black md:hidden"></div>
+
+          <div class="border-b-2 border-black md:hidden"></div>
+          <div class="border-x-2 border-black border-b-2 md:border-r-2 md:border-l-0 px-10 py-8">
+            <img class="m-auto" src="svg/strategy.svg" alt="strategy">
+            <p class="uppercase flex justify-center font-bold">strategy</p>
+            <p>I'm good at creating a digital strategy by aligning a company's brand identity with the desired user experience focusing on every customer touchpoint.</p>
+          </div>
+          <div class="border-b-2 border-black"></div>
+
+          <div></div>
+          <div class="border-x-2 border-black h-[3rem]"></div>
+          <div class="hidden md:block border-r-2 border-black h-[3rem]"></div>
+          <div></div>
+        </div>
+      </section>
+
+      <!-- WORKS -->
+      <section id="works" class=" bg-body px-8 pb-20">
+        <h2 class="reveal uppercase pt-20">WORKS</h2>
+        <p class="reveal uppercase">Bellow you can see a few of the projects that i have worked on during my education</p>
+
+        <div class="reveal md:grid md:grid-cols-1 md:gap-10 lg:grid-cols-2 pt-20">
+          <div class="works relative lg:h-[24rem]">
+           <img class="hidden md:block lg:h-[100%] w-full object-cover" src="img/kraess.png" alt="kræss">
+
+           <div class="hidden info absolute top-0 text-white ">
+            <div class="">
+              <h1 class="pt-12 pb-2 text-2xl border-b-2 border-white mx-8 uppercase">Kræss</h1>
+              <div class="pt-6 mx-8 grid grid-cols-2">
+                <div class="border-b-2 border-white pb-6">
+                  <p>Web Design</p>
+                  <p>Visual Identity</p>
+                  <p>Social Media Strategy</p>
+                </div>
+              </div>
+              <div class="grid grid-cols-about py-6 mx-8 gap-10">
+                <p>AN E-COMMERCE SITE FOR A SMALL INDEPENDENT ART AND DESIGN BOUTIQUE THAT SELLS AND SUPPORTS NEW AND UP AND COMING LOCAL ARTISTS</p>
+                <div class="flex justify-end items-end"><a class="uppercase px-2 py-2 border-2 border-white hover:text-accent hover:border-accent" href="kraess-project.html">view project</a></div>
+              </div>
+            </div>
+           </div>
+
+           <details class="md:hidden cursor-pointer pb-2">
+            <summary class="text-2xl"><span class="uppercase pl-8">Kræss</span></summary>
+            <img class="w-full object-cover" src="img/kraess.png" alt="kræss">
+            <div class=" border-t-2 border-black pb-6 grid grid-cols-2">
+              <div class="border-b-2 border-black py-6">
+                <p>Web Design</p>
+                <p>Visual Identity</p>
+                <p>Social Media Strategy</p>
+              </div>
+            </div>
+            <div class="grid grid-cols-about gap-10">
+              <p>AN E-COMMERCE SITE FOR A SMALL INDEPENDENT ART AND DESIGN BOUTIQUE THAT SELLS AND SUPPORTS NEW AND UP AND COMING LOCAL ARTISTS</p>
+              <div class="flex justify-end items-end"><a class="uppercase px-2 py-2 border-2 border-black hover:text-accent hover:border-accent" href="kraess-project.html">view project</a></div>
+            </div>
+          </details>
+
+          </div>
+          <div class="works relative lg:h-[24rem]">
+            <img class="hidden md:block h-[16rem] w-full lg:h-[100%] object-cover" src="img/customise.png" alt="customise">
+
+            <div class="hidden info absolute top-0 text-white">
+              <div class="">
+                <h1 class="pt-12 pb-2 text-2xl border-b-2 border-white mx-8 uppercase">Customise Me</h1>
+                <div class="pt-6 mx-8 grid grid-cols-2">
+                  <div class="border-b-2 border-white pb-6">
+                    <p>Web Design</p>
+                    <p>Visual Identity</p>
+                    <p>Social Media Strategy</p>
+                  </div>
+                </div>
+                <div class="grid grid-cols-about py-6 mx-8 gap-10">
+                  <p>AN E-COMMERCE SITE FOR A SMALL INDEPENDENT ART AND DESIGN BOUTIQUE THAT SELLS AND SUPPORTS NEW AND UP AND COMING LOCAL ARTISTS</p>
+                  <div class="flex justify-end items-end"><a class="uppercase px-2 py-2 border-2 border-white hover:text-accent hover:border-accent" href="customise-project.html">view project</a></div>
+                </div>
+              </div>
+             </div>
+
+             <details class="md:hidden cursor-pointer pb-2">
+              <summary class="text-2xl"><span class=" uppercase pl-8">Customise Me</span></summary>
+              <img class="w-full object-cover" src="img/customise.png" alt="kræss">
+              <div class=" border-t-2 border-black pb-6 grid grid-cols-2">
+                <div class="border-b-2 border-black py-6">
+                  <p>Web Design</p>
+                  <p>Visual Identity</p>
+                  <p>Social Media Strategy</p>
+                </div>
+              </div>
+              <div class="grid grid-cols-about gap-10">
+                <p>AN E-COMMERCE SITE FOR A SMALL INDEPENDENT ART AND DESIGN BOUTIQUE THAT SELLS AND SUPPORTS NEW AND UP AND COMING LOCAL ARTISTS</p>
+                <div class="flex justify-end items-end"><a class="uppercase px-2 py-2 border-2 border-black hover:text-accent hover:border-accent" href="customise-project.html">view project</a></div>
+              </div>
+            </details>
+          </div>
+
+          <div class="works relative lg:h-[24rem]">
+            <img class="hidden md:block h-[16rem] w-full lg:h-[100%] object-cover" src="img/silfen.png" alt="silfen">
+
+            <div class="hidden info absolute top-0 text-white">
+              <div class="">
+                <h1 class="pt-12 pb-2 text-2xl border-b-2 border-white mx-8 uppercase">Silfen</h1>
+                <div class="pt-6 mx-8 grid grid-cols-2">
+                  <div class="border-b-2 border-white pb-6">
+                    <p>Web Design</p>
+                    <p>Visual Identity</p>
+                    <p>Social Media Strategy</p>
+                  </div>
+                </div>
+                <div class="grid grid-cols-about py-6 mx-8 gap-10">
+                  <p>AN E-COMMERCE SITE FOR A SMALL INDEPENDENT ART AND DESIGN BOUTIQUE THAT SELLS AND SUPPORTS NEW AND UP AND COMING LOCAL ARTISTS</p>
+                  <div class="flex justify-end items-end"><a class="uppercase px-2 py-2 border-2 border-white hover:text-accent hover:border-accent" href="silfen-project.html">view project</a></div>
+                </div>
+              </div>
+             </div>
+             <details class="md:hidden cursor-pointer pb-2">
+              <summary class="text-2xl"><span class=" uppercase pl-8">Silfen</span></summary>
+              <img class="w-full object-cover" src="img/silfen.png" alt="kræss">
+              <div class=" border-t-2 border-black pb-6 grid grid-cols-2">
+                <div class="border-b-2 border-black py-6">
+                  <p>Web Design</p>
+                  <p>Visual Identity</p>
+                  <p>Social Media Strategy</p>
+                </div>
+              </div>
+              <div class="grid grid-cols-about gap-10">
+                <p>AN E-COMMERCE SITE FOR A SMALL INDEPENDENT ART AND DESIGN BOUTIQUE THAT SELLS AND SUPPORTS NEW AND UP AND COMING LOCAL ARTISTS</p>
+                <div class="flex justify-end items-end"><a class="uppercase px-2 py-2 border-2 border-black hover:text-accent hover:border-accent" href="silfen-project.html">view project</a></div>
+              </div>
+            </details>
+          </div>
+          <div class=" works relative lg:h-[24rem]">
+            <img class="hidden md:block h-[16rem] w-full lg:h-[100%] object-cover" src="img/vildskud.png" alt="vildskud">
+
+            <div class="hidden info absolute top-0 text-white">
+              <div class="">
+                <h1 class="pt-12 pb-2 text-2xl border-b-2 border-white mx-8 uppercase">Vildskud Festival</h1>
+                <div class="pt-6 mx-8 grid grid-cols-2">
+                  <div class="border-b-2 border-white pb-6">
+                    <p>Web Design</p>
+                    <p>Visual Identity</p>
+                    <p>Social Media Strategy</p>
+                  </div>
+                </div>
+                <div class="grid grid-cols-about py-6 mx-8 gap-10">
+                  <p>AN E-COMMERCE SITE FOR A SMALL INDEPENDENT ART AND DESIGN BOUTIQUE THAT SELLS AND SUPPORTS NEW AND UP AND COMING LOCAL ARTISTS</p>
+                  <div class="flex justify-end items-end"><a class="uppercase px-2 py-2 border-2 border-white hover:text-accent hover:border-accent" href="vildskud-project.html">view project</a></div>
+                </div>
+              </div>
+             </div>
+             <details class="md:hidden cursor-pointer pb-2">
+              <img class="w-full object-cover" src="img/vildskud.png" alt="kræss">
+              <summary class="text-2xl"><span class=" uppercase pl-8">Vildskud Festival</span></summary>
+              <div class=" border-t-2 border-black pb-6 grid grid-cols-2">
+                <div class="border-b-2 border-black py-6">
+                  <p>Web Design</p>
+                  <p>Visual Identity</p>
+                  <p>Social Media Strategy</p>
+                </div>
+              </div>
+              <div class="grid grid-cols-about gap-10">
+                <p>AN E-COMMERCE SITE FOR A SMALL INDEPENDENT ART AND DESIGN BOUTIQUE THAT SELLS AND SUPPORTS NEW AND UP AND COMING LOCAL ARTISTS</p>
+                <div class="flex justify-end items-end"><a class="uppercase px-2 py-2 border-2 border-black hover:text-accent hover:border-accent" href="vildskud-project.html">view project</a></div>
+              </div>
+            </details>
+          </div>
+        </div>
+      </section>
+       <!-- FOOTER -->
+       <section id="contact" class="about h-screen px-8 bg-dark z-400">
+        <div>
+          <h2 class="reveal uppercase text-white pt-20">CONTACT</h2>
+          <div class="reveal flex flex-col gap-12 pt-16">
+            <p class="text-white text-2xl leading-8 lg:px-20">Hi, my name is Thordis Kara and I'm a 25 year old Icelander based in copenhagen. I'm currently on my 3rd semester as a Multimedia Design student with emphasis on Digital Design at Copenhagen School of Design and Technology.</p>
+            <p class="text-white text-2xl leading-8 lg:px-20">I'm interested in everything that has to do with visual design, mobile and web projects as well as branding and visual storytelling.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+
+    </footer>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
