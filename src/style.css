@@ -103,5 +103,10 @@
                 }
             }
 
+            input::placeholder { 
+                color: rgb(111, 111, 111);
+                opacity: 1; 
+              }
+
 }
 
