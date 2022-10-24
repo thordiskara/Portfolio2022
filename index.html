@@ -10,9 +10,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
     <script type="module" crossorigin src="./assets/main.332195bf.js"></script>
-    <link rel="stylesheet" href="./assets/index.afc8bfaa.css">
+    <link rel="stylesheet" href="./assets/index.fb18096d.css">
   </head>
-  <body class="bg-body">
+  <body class="bg-body scroll-smooth">
     <header class="fixed w-screen">
       <div class="flex justify-between mx-8 mt-6 gap-10">
         <a href="index.html">TKV</a>
@@ -296,22 +296,76 @@
           </div>
         </div>
       </section>
-       <!-- FOOTER -->
+       <!-- CONTACT -->
        <section id="contact" class="about h-screen px-8 bg-dark z-400">
-        <div>
-          <h2 class="reveal uppercase text-white pt-20">CONTACT</h2>
-          <div class="reveal flex flex-col gap-12 pt-16">
-            <p class="text-white text-2xl leading-8 lg:px-20">Hi, my name is Thordis Kara and I'm a 25 year old Icelander based in copenhagen. I'm currently on my 3rd semester as a Multimedia Design student with emphasis on Digital Design at Copenhagen School of Design and Technology.</p>
-            <p class="text-white text-2xl leading-8 lg:px-20">I'm interested in everything that has to do with visual design, mobile and web projects as well as branding and visual storytelling.
-            </p>
+        <h2 class="reveal uppercase text-white pt-20">CONTACT</h2>
+        <div class="grid grid-cols-2">
+          <p class="text-white">Feel free to send me a message</p>
+          <div class="px-8 py-10 md:pl-4">
+            <form
+              class="border-l-2 border-white pl-4 md:pl-8 text-white"
+              action="https://getform.io/f/f76e9e90-2318-495b-abf9-9ed171d6cf91"
+              method=”POST”
+              enctype="multipart/form-data">
+    
+              <div class="grid">
+                <label class="pb-1 text-white" for="fname">NAME</label>
+                <input
+                  class="border-[1px] border-white bg-dark rounded-full"
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Your name.."
+                />
+              </div>
+              <div class="grid pt-6">
+                <label class="pb-1 text-white" for="lname">EMAIL</label>
+                <input
+                  class="border-[1px] border-white bg-dark rounded-full"
+                  type="text"
+                  id="email"
+                  name="email"
+                  placeholder="example@email.com..."
+                />
+              </div>
+              <div class="grid pt-6">
+                <label class="pb-1 text-white" for="subject">MESSAGE</label>
+                <textarea
+                  class="border-[1px] border-white bg-dark rounded-2xl"
+                  id="subject"
+                  name="subject"
+                  style="height: 200px"
+                ></textarea>
+              </div>
+              <button class="mt-6 cursor-pointer border-2 border-white bg-dark px-3 py-2 uppercase text-white hover:border-2 hover:text-accent  hover:border-accent" type="submit">Send</button>
+              <!-- <input
+                class="mt-6 cursor-pointer border-2 border-white bg-dark px-3 py-2 uppercase text-white hover:border-2 hover:text-accent  hover:border-accent"
+                type="submit"
+                value="Send"
+              /> -->
+            </form>
           </div>
+        </div>
+
+        <div class="bg-dark px-8 pb-10 text-white flex justify-between items-end uppercase gap-5">
+          <p>© Thordis Kara Valsdottir</p>
+          <div class="flex gap-3 flex-wrap">
+            <a class="hover:text-accent" href="">Facebook</a>
+            <a class="hover:text-accent" href="mailto:thordiskvals@gmail.com">Email</a>
+            <a class="hover:text-accent" href="">Instagram</a>
+            <a class="hover:text-accent" href="">LinkedIn</a>
+          </div>
+
+            <a class="hover:text-accent" href="index.html">
+              <div class="flex items-end">
+              <p>Back to top</p>
+              <img width="30px" src="./assets/Arrow_Up.00e13bbd.svg" alt="arrow">
+            </div></a>
         </div>
       </section>
     </main>
 
-    <footer>
-
-    </footer>
+    <footer></footer>
     
   </body>
 </html>
