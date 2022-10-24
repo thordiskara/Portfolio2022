@@ -74,4 +74,3 @@ function carousel() {
 }
 
 carousel();
-

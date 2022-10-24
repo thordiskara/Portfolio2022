@@ -301,16 +301,18 @@
           <p class="text-white">Feel free to send me a message</p>
           <div class="px-8 py-10 md:pl-4">
             <form
-              class="border-l-2 border-white pl-4 md:pl-8"
-              action="action_page.php"
-            >
+              class="border-l-2 border-white pl-4 md:pl-8 text-white"
+              action="https://getform.io/f/f76e9e90-2318-495b-abf9-9ed171d6cf91"
+              method=”POST”
+              enctype="multipart/form-data">
+    
               <div class="grid">
                 <label class="pb-1 text-white" for="fname">NAME</label>
                 <input
                   class="border-[1px] border-white bg-dark rounded-full"
                   type="text"
-                  id="fname"
-                  name="firstname"
+                  id="name"
+                  name="name"
                   placeholder="Your name.."
                 />
               </div>
@@ -319,8 +321,8 @@
                 <input
                   class="border-[1px] border-white bg-dark rounded-full"
                   type="text"
-                  id="lname"
-                  name="lastname"
+                  id="email"
+                  name="email"
                   placeholder="example@email.com..."
                 />
               </div>
@@ -333,11 +335,12 @@
                   style="height: 200px"
                 ></textarea>
               </div>
-              <input
+              <button class="mt-6 cursor-pointer border-2 border-white bg-dark px-3 py-2 uppercase text-white hover:border-2 hover:text-accent  hover:border-accent" type="submit">Send</button>
+              <!-- <input
                 class="mt-6 cursor-pointer border-2 border-white bg-dark px-3 py-2 uppercase text-white hover:border-2 hover:text-accent  hover:border-accent"
                 type="submit"
                 value="Send"
-              />
+              /> -->
             </form>
           </div>
         </div>

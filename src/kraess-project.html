@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- SPLIDE -->
+    <link rel="stylesheet" href="../splide/dist/css/splide.min.css">
   </head>
   <body class="bg-body">
     <header class="fixed w-screen">
@@ -39,8 +41,25 @@
     
          <section class="px-8 ">
             <h1 class="uppercase text-6xl border-b-2 border-black"></h1>
-            <div class="grid grid-cols-2">
-                <div></div>
+            <div class="grid grid-cols-1 lg:grid-cols-about">
+                
+                <section id="image-carousel" class="splide lg:pr-8 pt-8" aria-label="Beautiful Images">
+                    <div class="splide__track">
+                          <ul class="splide__list">
+                              <li class="splide__slide">
+                                <img src="img/kraess.png" alt="">
+                              </li>
+                              <li class="splide__slide">
+                                <img src="img/silfen.png" alt="">
+                              </li>
+                              <li class="splide__slide">
+                                <img src="img/vildskud.png" alt="">
+                              </li>
+                          </ul>
+                    </div>
+                  </section>
+
+                  
                 <div>
                 <div class="grid grid-cols-hero border-b-2 border-black py-8">
                     <p class="uppercase">client</p>
@@ -62,6 +81,8 @@
             </div>
          </section>
     </main>
+    <script src="../splide/dist/js/splide.min.js"></script>
+    <script src="./splide.js"></script>
     <script type="module" src="./main.js"></script>
   </body>
 </html>
