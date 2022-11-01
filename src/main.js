@@ -25,7 +25,7 @@ function reveal() {
 reveal();
 
 
-// CAROSEL
+// CAROUSEL
 "use strict";
 
 function carousel() {
