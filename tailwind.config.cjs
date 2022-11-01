@@ -7,6 +7,7 @@ module.exports = {
         'body':'#DFDFDF',
         'dark':'#212121',
         'accent':'#D83E3E',
+        'bluuu':'#142CFF'
       },
 
       gridTemplateColumns:{
