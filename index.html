@@ -9,8 +9,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- SPLIDE -->
+    <link rel="stylesheet" href="../splide/dist/css/splide.min.css">
     <script type="module" crossorigin src="./assets/main.332195bf.js"></script>
-    <link rel="stylesheet" href="./assets/index.fb18096d.css">
+    <link rel="stylesheet" href="./assets/index.cae294ad.css">
   </head>
   <body class="bg-body scroll-smooth">
     <header class="fixed w-screen">
@@ -33,50 +35,48 @@
 
     <main>
       <!-- HERO -->
-      <section class="h-screen sticky top-0 z-[-10]">
-        <h1 class=" px-8 lg:px-12 text-6xl pt-[20rem] sm:text-7xl md:text-8xl lg:text-[9rem] lg:pt-[16rem] lg:pb-[4.1rem] lg:pr-[30rem] lg:leading-[9rem]">DIGITAL DESIGN
-          STUDENT</h1>
-        </section>
-          <!-- <h1 class="title text-6xl sm:text-7xl md:text-8xl lg:text-9xl">& VISUAL 
-            PROBLEM SOLVER</h1> -->
-
-            <!-- CAROSEL -->
-      <section class="carousel relative overflow-hidden bg-body">
-        <div class="carousel__slider relative flex items-center w-[100vw] border-y-2 border-black h-[3.4rem]">
-          <ul class="carousel__list m-0 p-0 list-none absolute w-[150%] top-[50%] left-0 translate-y-[-50%] flex items-center justify-around">
-            <li class="carousel__item flex items-center justify-center text-accent text-[2.5rem]">
-              <span>WEB DESIGN</span>
-            </li>
-            <li class="carousel__item flex items-center justify-center text-accent text-[2.5rem]">
-              <span>&#183;</span>
-            </li>
-            <li class="carousel__item flex items-center justify-center text-accent text-[2.5rem]">
-              <span>CONTENT DESIGN</span>
-            </li>
-            <li class="carousel__item flex items-center justify-center text-accent text-[2.5rem]">
-              <span>&#183;</span>
-            </li>
-            <li class="carousel__item flex items-center justify-center text-accent text-[2.5rem]">
-              <span>VISUAL STORYTELLING</span>
-            </li>
-            <li class="carousel__item flex items-center justify-center text-accent text-[2.5rem]">
-              <span>&#183;</span>
-            </li>
-            <li class="carousel__item flex items-center justify-center text-accent text-[2.5rem]">
-              <span>E-COMMERCE DESIGN</span>
-            </li>
-            <li class="carousel__item flex items-center justify-center text-accent text-[2.5rem]">
-              <span>&#183;</span>
-            </li>
-            <li class="carousel__item flex items-center justify-center text-accent text-[2.5rem]">
-              <span>PROTOTYPING</span>
-            </li>
-            <li class="carousel__item flex items-center justify-center text-accent text-[2.5rem]">
-              <span>&#183;</span>
-            </li>
-          </ul>
+        <section class="h-screen sticky top-0 z-[-10]">
+          <h1 class=" px-8 lg:px-12 text-8xl pt-[20rem] md:text-9xl lg:text-[9rem] lg:pt-[16rem] lg:pb-[4.1rem] lg:pr-[30rem] lg:leading-[9rem]">DIGITAL DESIGN
+            STUDENT</h1>
+  
+              <!-- CAROSEL -->
+        <div class="carousel relative overflow-hidden bg-body">
+          <div class="carousel__slider relative flex items-center w-[100vw] border-y-2 border-black h-[3.4rem]">
+            <ul class="carousel__list m-0 p-0 list-none absolute w-[400%] sm:w-[330%] md:w-[270%] lg:w-[170%] top-[50%] left-0 translate-y-[-50%] flex items-center justify-around">
+              <li class="carousel__item flex items-center justify-center text-accent text-[2.5rem]">
+                <span>WEB DESIGN</span>
+              </li>
+              <li class="carousel__item flex items-center justify-center text-accent text-[2.5rem]">
+                <span>&#183;</span>
+              </li>
+              <li class="carousel__item flex items-center justify-center text-accent text-[2.5rem]">
+                <span>CONTENT DESIGN</span>
+              </li>
+              <li class="carousel__item flex items-center justify-center text-accent text-[2.5rem]">
+                <span>&#183;</span>
+              </li>
+              <li class="carousel__item flex items-center justify-center text-accent text-[2.5rem]">
+                <span>VISUAL STORYTELLING</span>
+              </li>
+              <li class="carousel__item flex items-center justify-center text-accent text-[2.5rem]">
+                <span>&#183;</span>
+              </li>
+              <li class="carousel__item flex items-center justify-center text-accent text-[2.5rem]">
+                <span>E-COMMERCE DESIGN</span>
+              </li>
+              <li class="carousel__item flex items-center justify-center text-accent text-[2.5rem]">
+                <span>&#183;</span>
+              </li>
+              <li class="carousel__item flex items-center justify-center text-accent text-[2.5rem]">
+                <span>PROTOTYPING</span>
+              </li>
+              <li class="carousel__item flex items-center justify-center text-accent text-[2.5rem]">
+                <span>&#183;</span>
+              </li>
+            </ul>
+          </div>
         </div>
-      </section>
+        </section>
 
       
 
@@ -144,27 +144,201 @@
         </div>
       </section>
 
+       <!-- WORKS -->
+
+       <section id="works" class=" bg-body px-8 pb-20">
+        <h2 class="reveal uppercase pt-20">WORKS</h2>
+        <p class="reveal uppercase">Bellow you can see a few of the projects that i have worked on during my education</p>
+
+        <div class="grid grid-cols-2 pt-20 gap-y-40">
+
+          <!-- KRÆSS -->
+          <section id="image-carousel1" class="splide lg:pr-8 pt-8 reveal" aria-label="Beautiful Images">
+            <div class="splide__track bg-black">
+                  <ul class="splide__list">
+                      <li class="splide__slide">
+                        <img src="./assets/kraess-front.7e531e00.png" alt="">
+                      </li>
+                      <li class="splide__slide">
+                        <img src="./assets/kraess-100.fe7b57c8.jpg" alt="">
+                      </li>
+                      <li class="splide__slide">
+                        <img src="./assets/kraess-product.27e1cd70.png" alt="">
+                      </li>
+                      <li class="splide__slide flex justify-center">
+                        <video width="300" controls>
+                          <source src="./assets/flowers.39c6faa4.mp4" type="video/mp4">
+                        </video>
+                      </li>
+                  </ul>
+            </div>
+          </section>
+
+          <section class="reveal">
+            <h1 class="pt-12 pb-2 text-2xl border-b-2 border-black mx-8 uppercase">Kræss</h1>
+              <div class="pt-6 mx-8 grid grid-cols-2 border-b-2 border-black gap-5">
+                <div class=" pb-6 uppercase">
+                  <p>Web Design</p>
+                  <p>Visual Identity</p>
+                  <p>Social Media Strategy</p>
+                </div>
+                <div class="flex justify-end">
+                  <a class="text-lg uppercase hover:text-accent underline" href="https://thordiskara.com/kraess">thordiskara.com/kraess</a>
+                </div>
+              </div>
+              <div class="flex flex-col py-6 mx-8 gap-5">
+                <p>An e-commerce site for a small independent art and design boutique that sells and supports new and up and coming local artists</p>
+                <p>My focus area was to redesign their visual identity, develop our digital solution and do the post production of video content for SoMe channels.</p>
+              </div>
+          </section>
+
+          <!-- SILFEN -->
+          
+            <section class="reveal">
+              <h1 class="pt-12 pb-2 text-2xl border-b-2 border-black mx-8 uppercase">Silfen</h1>
+                <div class="pt-6 mx-8 grid grid-cols-2 border-b-2 border-black">
+                  <div class=" pb-6 uppercase">
+                    <p>User and market research</p>
+                    <p>Redesign</p>
+                    <p>Storytelling</p>
+                  </div>
+                  <div class="flex justify-end">
+                    <a class="text-lg uppercase hover:text-accent underline" href="https://thordiskara.com/kraess">Figma prototype</a>
+                  </div>
+                </div>
+                <div class="flex flex-col py-6 mx-8 gap-5">
+                  <p>Silfen is a danish fashion brand that primarily sells handbags. They wanted to optimize their sustainability page in a more engaging, dynamic and trustworthy way. They also asked for CSR content for their social media to introduce customers to their company values.</p>
+                  <p>My focus area was</p>
+                </div>
+            </section>
+  
+            <section id="image-carousel2" class="splide lg:pr-8 pt-8 reveal " aria-label="Beautiful Images">
+              <div class="splide__track bg-black">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+                          <img src="./assets/silfen.d4ac5eba.png" alt="">
+                        </li>
+                        <li class="splide__slide">
+                          <img src="./assets/kraess-100.fe7b57c8.jpg" alt="">
+                        </li>
+                        <li class="splide__slide">
+                          <img src="./assets/kraess-product.27e1cd70.png" alt="">
+                        </li>
+                        <li class="splide__slide flex justify-center">
+                          <video width="300" controls>
+                            <source src="./assets/flowers.39c6faa4.mp4" type="video/mp4">
+                          </video>
+                        </li>
+                    </ul>
+              </div>
+            </section>
+        
+
+          <!-- VILDSKUD -->
+          <section id="image-carousel3" class="splide lg:pr-8 pt-8 reveal " aria-label="Beautiful Images">
+            <div class="splide__track bg-black">
+                  <ul class="splide__list">
+                      <li class="splide__slide">
+                        <img src="./assets/vildskud.2fdce080.png" alt="">
+                      </li>
+                      <li class="splide__slide">
+                        <img src="./assets/kraess-100.fe7b57c8.jpg" alt="">
+                      </li>
+                      <li class="splide__slide">
+                        <img src="./assets/kraess-product.27e1cd70.png" alt="">
+                      </li>
+                      <li class="splide__slide flex justify-center">
+                        <video width="300" controls>
+                          <source src="./assets/flowers.39c6faa4.mp4" type="video/mp4">
+                        </video>
+                      </li>
+                  </ul>
+            </div>
+          </section>
+
+          <section class="reveal">
+            <h1 class="pt-12 pb-2 text-2xl border-b-2 border-black mx-8 uppercase">Vildskud festival</h1>
+              <div class="pt-6 mx-8 grid grid-cols-2 border-b-2 border-black">
+                <div class=" pb-6 uppercase">
+                  <p>Sustainable redesing</p>
+                  <p>Visual Identity</p>
+                  <p>Optimization of website</p>
+                </div>
+                <div class="flex justify-end">
+                  <a class="text-lg uppercase hover:text-accent underline" href="https://thordiskara.com/kraess">thordiskara.com/kraess</a>
+                </div>
+              </div>
+              <div class="flex flex-col py-6 mx-8 gap-5">
+                <p>Vildskud Festival is an annual independent theater festival in Copenhagen. The task was to create a mobile first, sustainable website where each page had a maximum size of 0.125 mb. </p>
+                <p>My focus area was to develop their new visual identity and collaborate on desiging the UI, design events posters and assist with the web development.</p>
+              </div>
+          </section>
+
+          <!-- CUSTOMISE ME -->
+          <section class="reveal">
+            <h1 class="pt-12 pb-2 text-2xl border-b-2 border-black mx-8 uppercase">Customise me</h1>
+              <div class="pt-6 mx-8 grid grid-cols-2 border-b-2 border-black">
+                <div class=" pb-6 uppercase">
+                  <p>E-commerce design</p>
+                  <p>User and market research</p>
+                </div>
+                <div class="flex justify-end">
+                  <a class="text-lg uppercase hover:text-accent underline" href="https://thordiskara.com/kraess">Figma prototype</a>
+                </div>
+              </div>
+              <div class="flex flex-col py-6 mx-8 gap-5">
+                <p>CustomiseMe is a company that sells customisable, vegan hand soaps. The task was to redesign Customise Me's current website to make it more engaging and to optimize their user flow. They wanted a new solution for their customisation page to make it more understandable and fun for the customer. 
+                </p>
+                <p>My focus area was to design the UI, create a database and develop the web solution</p>
+              </div>
+          </section>
+
+          <section id="image-carousel4" class="splide lg:pr-8 pt-8 reveal" aria-label="Beautiful Images">
+            <div class="splide__track bg-black">
+                  <ul class="splide__list">
+                      <li class="splide__slide">
+                        <img src="./assets/customise.e4a1f364.png" alt="">
+                      </li>
+                      <li class="splide__slide">
+                        <img src="./assets/kraess-100.fe7b57c8.jpg" alt="">
+                      </li>
+                      <li class="splide__slide">
+                        <img src="./assets/kraess-product.27e1cd70.png" alt="">
+                      </li>
+                      <li class="splide__slide flex justify-center">
+                        <video width="300" controls>
+                          <source src="./assets/flowers.39c6faa4.mp4" type="video/mp4">
+                        </video>
+                      </li>
+                  </ul>
+            </div>
+          </section>
+
+        </div>
+       </section>
+
+
       <!-- WORKS -->
-      <section id="works" class=" bg-body px-8 pb-20">
+      <!-- <section id="works" class=" bg-body px-8 pb-20">
         <h2 class="reveal uppercase pt-20">WORKS</h2>
         <p class="reveal uppercase">Bellow you can see a few of the projects that i have worked on during my education</p>
 
         <div class="reveal md:grid md:grid-cols-1 md:gap-10 lg:grid-cols-2 pt-20">
           <div class="works relative lg:h-[24rem]">
-           <img class="hidden md:block lg:h-[100%] w-full object-cover" src="./assets/kraess.0334ab33.png" alt="kræss">
+           <img class="hidden md:block lg:h-[100%] w-full object-cover" src="img/kraess-front.png" alt="kræss">
 
            <div class="hidden info absolute top-0 text-white ">
             <div class="">
               <h1 class="pt-12 pb-2 text-2xl border-b-2 border-white mx-8 uppercase">Kræss</h1>
               <div class="pt-6 mx-8 grid grid-cols-2">
-                <div class="border-b-2 border-white pb-6">
+                <div class="border-b-2 border-white pb-6 uppercase">
                   <p>Web Design</p>
                   <p>Visual Identity</p>
                   <p>Social Media Strategy</p>
                 </div>
               </div>
               <div class="grid grid-cols-about py-6 mx-8 gap-10">
-                <p>AN E-COMMERCE SITE FOR A SMALL INDEPENDENT ART AND DESIGN BOUTIQUE THAT SELLS AND SUPPORTS NEW AND UP AND COMING LOCAL ARTISTS</p>
+                <p>An e-commerce site for a small independent art and design boutique that sells and supports new and up and coming local artists</p>
                 <div class="flex justify-end items-end"><a class="uppercase px-2 py-2 border-2 border-white hover:text-accent hover:border-accent" href="kraess-project.html">view project</a></div>
               </div>
             </div>
@@ -172,29 +346,29 @@
 
            <details class="md:hidden cursor-pointer pb-2">
             <summary class="text-2xl"><span class="uppercase pl-8">Kræss</span></summary>
-            <img class="w-full object-cover" src="./assets/kraess.0334ab33.png" alt="kræss">
+            <img class="w-full object-cover" src="img/kraess.png" alt="kræss">
             <div class=" border-t-2 border-black pb-6 grid grid-cols-2">
-              <div class="border-b-2 border-black py-6">
+              <div class="border-b-2 border-black py-6 uppercase">
                 <p>Web Design</p>
                 <p>Visual Identity</p>
                 <p>Social Media Strategy</p>
               </div>
             </div>
             <div class="grid grid-cols-about gap-10">
-              <p>AN E-COMMERCE SITE FOR A SMALL INDEPENDENT ART AND DESIGN BOUTIQUE THAT SELLS AND SUPPORTS NEW AND UP AND COMING LOCAL ARTISTS</p>
+              <p>An e-commerce site for a small independent art and design boutique that sells and supports new and up and coming local artists</p>
               <div class="flex justify-end items-end"><a class="uppercase px-2 py-2 border-2 border-black hover:text-accent hover:border-accent" href="kraess-project.html">view project</a></div>
             </div>
           </details>
 
           </div>
           <div class="works relative lg:h-[24rem]">
-            <img class="hidden md:block h-[16rem] w-full lg:h-[100%] object-cover" src="./assets/customise.e4a1f364.png" alt="customise">
+            <img class="hidden md:block h-[16rem] w-full lg:h-[100%] object-cover" src="img/customise.png" alt="customise">
 
             <div class="hidden info absolute top-0 text-white">
               <div class="">
                 <h1 class="pt-12 pb-2 text-2xl border-b-2 border-white mx-8 uppercase">Customise Me</h1>
                 <div class="pt-6 mx-8 grid grid-cols-2">
-                  <div class="border-b-2 border-white pb-6">
+                  <div class="border-b-2 border-white pb-6 uppercase">
                     <p>Web Design</p>
                     <p>Visual Identity</p>
                     <p>Social Media Strategy</p>
@@ -209,9 +383,9 @@
 
              <details class="md:hidden cursor-pointer pb-2">
               <summary class="text-2xl"><span class=" uppercase pl-8">Customise Me</span></summary>
-              <img class="w-full object-cover" src="./assets/customise.e4a1f364.png" alt="kræss">
+              <img class="w-full object-cover" src="img/customise.png" alt="kræss">
               <div class=" border-t-2 border-black pb-6 grid grid-cols-2">
-                <div class="border-b-2 border-black py-6">
+                <div class="border-b-2 border-black py-6 uppercase">
                   <p>Web Design</p>
                   <p>Visual Identity</p>
                   <p>Social Media Strategy</p>
@@ -225,16 +399,16 @@
           </div>
 
           <div class="works relative lg:h-[24rem]">
-            <img class="hidden md:block h-[16rem] w-full lg:h-[100%] object-cover" src="./assets/silfen.d4ac5eba.png" alt="silfen">
+            <img class="hidden md:block h-[16rem] w-full lg:h-[100%] object-cover" src="img/silfen.png" alt="silfen">
 
             <div class="hidden info absolute top-0 text-white">
               <div class="">
                 <h1 class="pt-12 pb-2 text-2xl border-b-2 border-white mx-8 uppercase">Silfen</h1>
                 <div class="pt-6 mx-8 grid grid-cols-2">
-                  <div class="border-b-2 border-white pb-6">
-                    <p>Web Design</p>
-                    <p>Visual Identity</p>
-                    <p>Social Media Strategy</p>
+                  <div class="border-b-2 border-white pb-6 uppercase">
+                    <p>User and market research</p>
+                    <p>Storytelling</p>
+                    <p>Redesign</p>
                   </div>
                 </div>
                 <div class="grid grid-cols-about py-6 mx-8 gap-10">
@@ -245,7 +419,7 @@
              </div>
              <details class="md:hidden cursor-pointer pb-2">
               <summary class="text-2xl"><span class=" uppercase pl-8">Silfen</span></summary>
-              <img class="w-full object-cover" src="./assets/silfen.d4ac5eba.png" alt="kræss">
+              <img class="w-full object-cover" src="img/silfen.png" alt="kræss">
               <div class=" border-t-2 border-black pb-6 grid grid-cols-2">
                 <div class="border-b-2 border-black py-6">
                   <p>Web Design</p>
@@ -260,16 +434,16 @@
             </details>
           </div>
           <div class=" works relative lg:h-[24rem]">
-            <img class="hidden md:block h-[16rem] w-full lg:h-[100%] object-cover" src="./assets/vildskud.2fdce080.png" alt="vildskud">
+            <img class="hidden md:block h-[16rem] w-full lg:h-[100%] object-cover" src="img/vildskud.png" alt="vildskud">
 
             <div class="hidden info absolute top-0 text-white">
               <div class="">
                 <h1 class="pt-12 pb-2 text-2xl border-b-2 border-white mx-8 uppercase">Vildskud Festival</h1>
                 <div class="pt-6 mx-8 grid grid-cols-2">
                   <div class="border-b-2 border-white pb-6">
-                    <p>Web Design</p>
-                    <p>Visual Identity</p>
-                    <p>Social Media Strategy</p>
+                    <p>Sustainable redesign</p>
+                    <p>Optimization of website</p>
+                    <p>Visual identity</p>
                   </div>
                 </div>
                 <div class="grid grid-cols-about py-6 mx-8 gap-10">
@@ -279,7 +453,7 @@
               </div>
              </div>
              <details class="md:hidden cursor-pointer pb-2">
-              <img class="w-full object-cover" src="./assets/vildskud.2fdce080.png" alt="kræss">
+              <img class="w-full object-cover" src="img/vildskud.png" alt="kræss">
               <summary class="text-2xl"><span class=" uppercase pl-8">Vildskud Festival</span></summary>
               <div class=" border-t-2 border-black pb-6 grid grid-cols-2">
                 <div class="border-b-2 border-black py-6">
@@ -295,60 +469,19 @@
             </details>
           </div>
         </div>
-      </section>
+      </section> -->
        <!-- CONTACT -->
-       <section id="contact" class="about h-screen px-8 bg-dark z-400">
+       <section id="contact" class="about px-8 bg-dark z-400">
         <h2 class="reveal uppercase text-white pt-20">CONTACT</h2>
-        <div class="grid grid-cols-2">
-          <p class="text-white">Feel free to send me a message</p>
-          <div class="px-8 py-10 md:pl-4">
-            <form
-              class="border-l-2 border-white pl-4 md:pl-8 text-white"
-              action="https://getform.io/f/f76e9e90-2318-495b-abf9-9ed171d6cf91"
-              method=”POST”
-              enctype="multipart/form-data">
-    
-              <div class="grid">
-                <label class="pb-1 text-white" for="fname">NAME</label>
-                <input
-                  class="border-[1px] border-white bg-dark rounded-full"
-                  type="text"
-                  id="name"
-                  name="name"
-                  placeholder="Your name.."
-                />
-              </div>
-              <div class="grid pt-6">
-                <label class="pb-1 text-white" for="lname">EMAIL</label>
-                <input
-                  class="border-[1px] border-white bg-dark rounded-full"
-                  type="text"
-                  id="email"
-                  name="email"
-                  placeholder="example@email.com..."
-                />
-              </div>
-              <div class="grid pt-6">
-                <label class="pb-1 text-white" for="subject">MESSAGE</label>
-                <textarea
-                  class="border-[1px] border-white bg-dark rounded-2xl"
-                  id="subject"
-                  name="subject"
-                  style="height: 200px"
-                ></textarea>
-              </div>
-              <button class="mt-6 cursor-pointer border-2 border-white bg-dark px-3 py-2 uppercase text-white hover:border-2 hover:text-accent  hover:border-accent" type="submit">Send</button>
-              <!-- <input
-                class="mt-6 cursor-pointer border-2 border-white bg-dark px-3 py-2 uppercase text-white hover:border-2 hover:text-accent  hover:border-accent"
-                type="submit"
-                value="Send"
-              /> -->
-            </form>
-          </div>
-        </div>
+          <p class="reveal text-white flex justify-center mx-[30rem] text-xl text-center pt-20 uppercase">get in touch</p>
 
-        <div class="bg-dark px-8 pb-10 text-white flex justify-between items-end uppercase gap-5">
-          <p>© Thordis Kara Valsdottir</p>
+          <a class="email reveal uppercase text-7xl text-white  flex justify-center mx-48 pt-20" href="mailto:thordiskvals@gmail.com">thordiskvals@gmail.com</a>
+        </section>
+      </main>
+        
+
+        <footer class="bg-dark px-8 text-white flex justify-between items-end uppercase gap-5 pt-32 pb-16">
+          <p>© Thordis Kara Valsdottir 2022</p>
           <div class="flex gap-3 flex-wrap">
             <a class="hover:text-accent" href="">Facebook</a>
             <a class="hover:text-accent" href="mailto:thordiskvals@gmail.com">Email</a>
@@ -361,11 +494,10 @@
               <p>Back to top</p>
               <img width="30px" src="./assets/Arrow_Up.00e13bbd.svg" alt="arrow">
             </div></a>
-        </div>
-      </section>
-    </main>
+          </footer>
 
-    <footer></footer>
+      <script src="../splide/dist/js/splide.min.js"></script>
+      <script src="./splide.js"></script>
     
   </body>
 </html>
