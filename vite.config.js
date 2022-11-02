@@ -14,8 +14,13 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, "src/index.html"),
-        // about: resolve(__dirname, "src/about.html"),
+        kraess: resolve(__dirname, "src/kraess-project.html"),
+        silfen: resolve(__dirname, "src/silfen-project.html"),
+        vildskud: resolve(__dirname, "src/vildskud-project.html"),
+        customise: resolve(__dirname, "src/customise-project.html"),
       },
     },
   },
 });
+
+
