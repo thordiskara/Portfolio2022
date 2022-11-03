@@ -139,5 +139,30 @@
                 transform: translate(-50%, -50%);
                 text-align: center;
               }
+
+              .email {
+                display: inline-block;
+                position: relative;
+                color: #0087ca;
+              }
+              
+              .email:after {
+                content: '';
+                position: absolute;
+                width: 100%;
+                transform: scaleX(0);
+                height: 5px;
+                bottom: 0;
+                left: 0;
+                background-color: white;
+                transform-origin: bottom right;
+                transition: transform 0.4s ease-out;
+              }
+              
+              .email:hover:after {
+                transform: scaleX(1);
+                transform-origin: bottom left;
+              }
+
 }
 
